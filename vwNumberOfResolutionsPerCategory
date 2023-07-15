@@ -1,0 +1,4 @@
+SELECT tweet_category,
+      count(*) numberofresolutions
+FROM `dataverse-dami.twitter_new_year_resolutions_project.resolutions` 
+GROUP BY tweet_category
